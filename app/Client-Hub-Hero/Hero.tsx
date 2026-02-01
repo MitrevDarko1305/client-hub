@@ -64,9 +64,9 @@ export default function Hero() {
         aria-hidden={!open}
       >
         <a href="/" onClick={() => setOpen(false)}>Home</a>
-        <a href="/products" onClick={() => setOpen(false)}>Products</a>
-        <a href="/stories" onClick={() => setOpen(false)}>Stories</a>
-        <a href="/pricing" onClick={() => setOpen(false)}>Pricing</a>
+        <a href="/" onClick={() => setOpen(false)}>Products</a>
+        <a href="/" onClick={() => setOpen(false)}>Stories</a>
+        <a href="/" onClick={() => setOpen(false)}>Pricing</a>
 
         <button
           onClick={() => setOpen(false)}
